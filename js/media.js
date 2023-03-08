@@ -4,8 +4,8 @@
     1. Se a nota for 0, mostre na tela: "Infelizmente você zerou a prova :( "
     2. Se a nota for entre 0.1 e 3, mostre na tela: 
       "Caramba, deu ruim, você obteve media {nota}! Estude mais e tente novamente!"
-    3. Se a nota for entre 3.1 e 5.9, mostre na tela: 
-      "Você obteve media {nota}! Falta pouco para a média."
+      3. Se a nota for entre 3.1 e 5.9, mostre na tela: 
+        "Você obteve media {nota}! Falta pouco para a média."
     4. Se a nota for entre 6 e 7, mostre na tela: "Você está na média com {nota}"
     5. Se a nota for entre 7.1 e 9.9, mostre na tela: "Notão! Sua média é {nota}!"
     6. Se a nota for 10, mostre na tela: 
@@ -21,11 +21,27 @@ function calcularMedia() {
   let mensagem = "";
   // evite mexer no código acima!
   
+  const soma = (nota1 + note2 + note3 + note4)/4
 
-  
-  
-  
-  
+  if (soma == 0.0){
+    mensagem = "Infelizmente você zerou a prova :( ";
+  }
+  else if (soma > 0.0 && soma <=3){
+    mensagem = `Caramba, deu ruim, você obteve media ${soma}! Estude mais e tente novamente!`;
+  }
+  else if (soma >= 3.1 &&  soma <= 5.9) {
+    mensagem = `Você obteve media ${soma}! Falta pouco para a média.`;
+  } 
+  else if (soma >= 6.0 &&  soma <= 7.0) {
+    mensagem = `Você está na média com ${soma}`;
+  }
+  else if (soma >=7.1 &&  soma <= 9.9){
+    mensagem = `Notão! Sua média é ${soma}!`
+  }
+  else if (soma == 10) {
+    mensagem = "Hoje é seu aniversário? Pq você ta de parabéns! 10 de média"
+
+  }
   
   
   // evite mexer na linha de código abaixo!
