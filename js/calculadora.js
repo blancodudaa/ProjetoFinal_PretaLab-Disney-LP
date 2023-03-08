@@ -18,7 +18,7 @@ function subtrair() {
   const numero2 = parseFloat(document.getElementById("numero2Sub").value);
   // evite mexer no código acima!
 
-  /* use as constantes numero 1 e numero 2 e realize a soma entre elas.
+  /* use as constantes numero 1 e numero 2 e realize a subtraia entre elas.
    Em seguida, ao invés de mostrar o numero 9, mostre o resultado da operação */
   
   
@@ -34,7 +34,7 @@ function multiplicar() {
   const numero2 = parseFloat(document.getElementById("numero2Mult").value);
   // evite mexer no código acima!
 
-  /* use as constantes numero 1 e numero 2 e realize a soma entre elas.
+  /* use as constantes numero 1 e numero 2 e multiplique a soma entre elas.
    Em seguida, ao invés de mostrar o numero 5, mostre o resultado da operação */
   
   const multiplicacao = numero1 * numero2
@@ -48,7 +48,7 @@ function dividir() {
   const numero2 = parseFloat(document.getElementById("numero2Div").value);
   // evite mexer no código acima!
 
-  /* use as constantes numero 1 e numero 2 e realize a soma entre elas.
+  /* use as constantes numero 1 e numero 2 e divida a soma entre elas.
    Em seguida, ao invés de mostrar o numero -89, mostre o resultado da operação */
   
   const divisao = numero1 / numero2 

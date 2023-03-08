@@ -14,14 +14,14 @@
 
 function calcularMedia() {
   const nota1 = parseFloat(document.getElementById("nota1").value);
-  const note2 = parseFloat(document.getElementById("nota2").value);
-  const note3 = parseFloat(document.getElementById("nota3").value);
-  const note4 = parseFloat(document.getElementById("nota4").value);
+  const nota2 = parseFloat(document.getElementById("nota2").value);
+  const nota3 = parseFloat(document.getElementById("nota3").value);
+  const nota4 = parseFloat(document.getElementById("nota4").value);
 
   let mensagem = "";
   // evite mexer no código acima!
   
-  const soma = (nota1 + note2 + note3 + note4)/4
+  const soma = (nota1 + nota2 + nota3 + nota4)/4
 
   if (soma == 0.0){
     mensagem = "Infelizmente você zerou a prova :( ";
