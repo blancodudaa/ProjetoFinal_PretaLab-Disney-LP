@@ -42,7 +42,9 @@ function calcularMedia() {
     mensagem = "Hoje é seu aniversário? Pq você ta de parabéns! 10 de média"
 
   }
-  
+/*optei por colocar "else if" no final, para não ocorrer da nota digitada ultrapassar
+10, assim o código não roda em caso do usuário errar e acabar digitadndo algum número
+errado.*/
   
   // evite mexer na linha de código abaixo!
   document.getElementById("situacaoAluno").innerHTML = mensagem;
